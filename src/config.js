@@ -5,7 +5,7 @@ module.exports = {
   dbConfig: {
     host: process.env.MYSQL_HOST,
     user: process.env.MYSQL_USER,
-    pass: process.env.MYSQL_PASS,
+    password: process.env.MYSQL_PASS,
     port: process.env.MYSQL_PORT,
     database: process.env.MYSQL_DB,
   },
